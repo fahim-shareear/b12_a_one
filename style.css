@@ -380,3 +380,81 @@ body{
 
 
 /* User feedback section design end */
+
+
+/* account opening section styling start */
+
+.ac_open{
+    width: 100%;
+    height: 800px;
+}
+
+
+.main_container{
+   max-width: 1250px;
+   height: 800px;
+   background-color: #fff;
+   border-radius: 13px;
+   margin: 0 auto;
+}
+
+
+
+
+.head_title{
+    width: 800px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px 15px;
+}
+
+
+.head_title h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    padding: 10px 35px;
+    color: #252432;
+}
+
+.head_title p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #72737f;
+    padding: 15px 25px;
+}
+
+
+.head_btn button{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #4e47ff;
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+.display_img{
+    max-width: 900px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+
+.display_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+/* account opening section styling done */
+
