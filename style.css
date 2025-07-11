@@ -6,12 +6,69 @@
   font-style: normal;
 } */
 
+/* .raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
 
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: 1px solid red;
 }
 
 
+.header{
+    max-width: 1920px;
+    height: 870px;
+    background-image: url(Assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* nav section design */
+
+.menu{
+    max-width: 1140px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 100px;
+    height: 50px;
+}
+
+.logo h2{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 34px;
+    color: #4e47ff;
+}
+
+/* .button{
+    width: 150px;
+    height: 50px;
+} */
+
+.button button{
+    font-family: "Railway", sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: #4e47ff;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 800;
+    width: 150px;
+    height: 50px;
+}
