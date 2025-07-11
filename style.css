@@ -628,3 +628,17 @@ footer{
 
 
 /* end of footer section styling */
+
+
+button{
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+
+button:hover{
+    scale: (1.1);
+    background-color: rgba(245, 245, 10, 0.897);
+    color: #252432;
+}
