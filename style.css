@@ -482,7 +482,48 @@ body{
 }
 
 
+.left_side h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #252432;
+    padding: 25px 0px;
+    margin-top: 60px;
+}
+
+
 .right_side{
     width: 50%;
-    height: 50%;
+    height: 70%;
 }
+
+form{
+    padding: 15px 10px;
+}
+
+label{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+}
+
+input{
+    width: 450px;
+    padding: 25px 45px;
+    border-radius: 13px;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+textarea{
+    width: 450px;
+    height: 150px;
+    padding: 25px 45px;
+    margin: 25px 0px;
+    border-radius: 13px;
+}
+
+
