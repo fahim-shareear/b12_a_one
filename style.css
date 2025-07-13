@@ -317,9 +317,17 @@ body{
     background-color: #fff;
     border-radius: 13px;
     padding: 12px 15px;
+    transition: all 0.2s linear;
+    cursor: pointer;
 
 }
 
+.card:hover{
+    transform: translateY(-10px);
+    background-color: yellow;
+    color: #252432;
+    box-shadow: 10px 15px 0.8px;
+}
 
 .c_head ul{
     display: flex;
